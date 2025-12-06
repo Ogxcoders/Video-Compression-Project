@@ -1,0 +1,24 @@
+[Unit]
+Description=VPS Video Compression API and Worker (PM2)
+Documentation=https://pm2.keymetrics.io/
+After=network.target redis.service
+Wants=redis.service
+
+[Service]
+Type=forking
+User=www-data
+Group=www-data
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Environment=PM2_HOME=/var/www/.pm2
+WorkingDirectory=/var/www/vps-api
+ExecStart=/usr/bin/pm2 start /var/www/vps-api/ecosystem.config.js --env production
+ExecReload=/usr/bin/pm2 reload all
+ExecStop=/usr/bin/pm2 stop all
+PIDFile=/var/www/.pm2/pm2.pid
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/var/log/vps-api/pm2.log
+StandardError=append:/var/log/vps-api/pm2-error.log
+
+[Install]
+WantedBy=multi-user.target
