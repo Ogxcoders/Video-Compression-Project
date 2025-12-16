@@ -1,0 +1,180 @@
+# Video Compression API - Docker Compose Configuration
+# Deploy with: docker-compose up -d
+# Scale workers: docker-compose up -d --scale worker=2
+#
+# Architecture:
+#   - nginx: Fast video delivery reverse proxy (port 80/443)
+#   - vps-api: Next.js API server (internal port 5000)
+#   - vps-worker: Background compression worker
+#   - redis: Job queue storage
+#   - All services share /media volume for processed videos
+#
+# Nginx serves video files directly (10-50x faster than Node.js)
+# Next.js handles only API and app logic
+
+version: '3.8'
+
+services:
+  # ============================================
+  # Nginx - Fast Video Delivery Reverse Proxy
+  # ============================================
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: vps-nginx
+    restart: unless-stopped
+    expose:
+      - "80"
+    volumes:
+      - media_content:/media/content:ro
+    depends_on:
+      vps-api:
+        condition: service_healthy
+    networks:
+      - vps-network
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "coolify.managed=true"
+      - "coolify.port=80"
+
+  # ============================================
+  # Redis - Job Queue Backend
+  # ============================================
+  redis:
+    image: redis:7-alpine
+    container_name: vps-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy noeviction
+    volumes:
+      - redis_data:/data
+    networks:
+      - vps-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # VPS API - Next.js Server (internal only)
+  # ============================================
+  vps-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vps-api
+    restart: unless-stopped
+    expose:
+      - "5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - API_KEY=${API_KEY}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - BASE_URL=${BASE_URL:-https://v.ogtemplate.com}
+      - WORDPRESS_WEBHOOK_URL=${WORDPRESS_WEBHOOK_URL}
+      - MEDIA_UPLOADS_DIR=/media/uploads
+      - MEDIA_CONTENT_DIR=/media/content
+      - LOG_FILE=/app/logs/all.log
+      - THUMBNAIL_QUALITY=${THUMBNAIL_QUALITY:-60}
+      - PARALLEL_COMPRESSION=${PARALLEL_COMPRESSION:-false}
+      - PARALLEL_LIMIT=${PARALLEL_LIMIT:-1}
+      - ALLOWED_DOWNLOAD_DOMAINS=${ALLOWED_DOWNLOAD_DOMAINS:-*}
+      - VERIFY_SSL_DOWNLOADS=${VERIFY_SSL_DOWNLOADS:-true}
+      - DEBUG=${DEBUG:-false}
+    volumes:
+      - media_uploads:/media/uploads
+      - media_content:/media/content
+      - api_logs:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - vps-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ============================================
+  # VPS Worker - Background Job Processor
+  # ============================================
+  vps-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vps-worker
+    restart: unless-stopped
+    command: ["node", "dist/workers/compression-worker.js"]
+    environment:
+      - NODE_ENV=production
+      - API_KEY=${API_KEY}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - BASE_URL=${BASE_URL:-https://v.ogtemplate.com}
+      - WORDPRESS_WEBHOOK_URL=${WORDPRESS_WEBHOOK_URL}
+      - MEDIA_UPLOADS_DIR=/media/uploads
+      - MEDIA_CONTENT_DIR=/media/content
+      - LOG_FILE=/app/logs/worker.log
+      - THUMBNAIL_QUALITY=${THUMBNAIL_QUALITY:-60}
+      - PARALLEL_COMPRESSION=${PARALLEL_COMPRESSION:-false}
+      - PARALLEL_LIMIT=${PARALLEL_LIMIT:-1}
+      - ALLOWED_DOWNLOAD_DOMAINS=${ALLOWED_DOWNLOAD_DOMAINS:-*}
+      - VERIFY_SSL_DOWNLOADS=${VERIFY_SSL_DOWNLOADS:-true}
+      - DEBUG=${DEBUG:-false}
+    volumes:
+      - media_uploads:/media/uploads
+      - media_content:/media/content
+      - worker_logs:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - vps-network
+    healthcheck:
+      test: ["CMD", "node", "-e", "const Redis = require('ioredis'); const r = new Redis({host:'redis',port:6379}); r.ping().then(() => {r.quit(); process.exit(0)}).catch(() => process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 0
+        window: 120s
+
+# ============================================
+# Volumes
+# ============================================
+volumes:
+  redis_data:
+    driver: local
+  media_uploads:
+    driver: local
+  media_content:
+    driver: local
+  api_logs:
+    driver: local
+  worker_logs:
+    driver: local
+
+# ============================================
+# Networks
+# ============================================
+networks:
+  vps-network:
+    driver: bridge

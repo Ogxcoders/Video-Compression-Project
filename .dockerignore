@@ -1,0 +1,52 @@
+# Docker Ignore File
+# Prevents unnecessary files from being copied to Docker image
+
+# Dependencies
+node_modules
+npm-debug.log
+
+# Build outputs
+.next
+dist
+out
+
+# Environment files (use docker-compose env vars instead)
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Media (use volumes instead)
+public/media/uploads/*
+public/media/content/*
+!public/media/uploads/.gitkeep
+!public/media/content/.gitkeep
+
+# Development files
+*.md
+!README.md
+DEEP-ANALYSIS-REPORT.md
+TASKLIST.md
+replit.md

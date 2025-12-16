@@ -1,0 +1,317 @@
+[2025-12-04 13:48:50] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:48:50] [INFO] [REDIS] Redis connected successfully | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:48:50] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 13:48:51] [DEBUG] [API-HEALTH] Health check | {"isHealthy":true,"redisConnected":true,"ffmpegAvailable":true}
+[2025-12-04 13:51:08] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:51:08] [INFO] [REDIS] Redis connected successfully | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:51:08] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 13:51:08] [DEBUG] [API-HEALTH] Health check | {"isHealthy":true,"redisConnected":true,"ffmpegAvailable":true}
+[2025-12-04 13:52:52] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:52:52] [INFO] [REDIS] Redis connected successfully | {"host":"127.0.0.1","port":6379}
+[2025-12-04 13:52:52] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 13:52:52] [DEBUG] [API-HEALTH] Health check | {"isHealthy":true,"redisConnected":true,"ffmpegAvailable":true}
+[2025-12-04 14:18:16] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-04 14:18:16] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:18:16] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:18:16] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 14:18:16] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:18:16] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:18:16] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:18:16] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:18:16] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:18:16] [ERROR] [REDIS] Redis connection failed after 3 retries
+[2025-12-04 14:18:16] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:24:07] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:24:54] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:25:02] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:26:05] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:26:15] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:31:52] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"169.197.85.173"}
+[2025-12-04 14:32:06] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-04 14:32:06] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:32:06] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:32:06] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 14:32:07] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:32:07] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:32:07] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:32:07] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 14:32:07] [ERROR] [REDIS] Redis connection error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-04 14:32:07] [ERROR] [REDIS] Redis connection failed after 3 retries
+[2025-12-04 14:32:07] [WARNING] [REDIS] Redis connection closed
+[2025-12-04 15:31:55] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 15:33:15] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 15:35:17] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 15:35:19] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 15:37:06] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 15:37:07] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:35:47] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:35:49] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:40:45] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:40:47] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:41:04] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:41:06] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:42:43] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 16:42:44] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 23:47:20] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-04 23:47:22] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:29:57] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 10:29:57] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 10:29:57] [INFO] [UTILS] Created directory | {"path":"/home/runner/workspace/nextjs-vps-api/public/media/uploads"}
+[2025-12-05 10:29:57] [INFO] [UTILS] Created directory | {"path":"/home/runner/workspace/nextjs-vps-api/public/media/content"}
+[2025-12-05 10:29:57] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 10:29:57] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:29:57] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:29:57] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 10:29:57] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:29:57] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:29:58] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:29:58] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:29:59] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:29:59] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:00] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:00] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:01] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:01] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:02] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:02] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:03] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:03] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:04] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:04] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:07] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:07] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:15] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:15] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:35] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:35] [ERROR] [WORKER] Worker error | {"error":"connect ECONNREFUSED 127.0.0.1:6379"}
+[2025-12-05 10:30:53] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 10:30:53] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 10:30:53] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 10:30:53] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:30:53] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:30:53] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 10:40:59] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 10:40:59] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 10:40:59] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 10:40:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:40:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:40:59] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 10:53:39] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 10:53:39] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 10:53:39] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 10:53:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:53:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:53:39] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 10:56:59] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 10:56:59] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 10:56:59] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 10:56:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:56:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 10:56:59] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 19:51:05] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 19:51:05] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 19:51:05] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 19:51:05] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 19:51:05] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 19:51:05] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 20:16:22] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-05 20:16:22] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 20:16:22] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 20:16:22] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 20:16:23] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:16:23] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:16:23] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 20:18:18] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-05 20:18:18] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 20:18:18] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 20:18:18] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 20:18:18] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:18:18] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:18:18] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-05 20:47:34] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-05 20:47:34] [INFO] [WORKER] Starting compression worker...
+[2025-12-05 20:47:34] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-05 20:47:34] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-05 20:47:34] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:47:34] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-05 20:47:34] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 07:44:55] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 07:44:55] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 07:44:55] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 07:44:55] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 07:44:55] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 07:44:55] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 07:44:55] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 07:54:06] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 07:54:06] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 07:54:06] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 07:54:06] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 07:54:06] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 07:54:06] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 07:54:06] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 07:58:47] [INFO] [QUEUE] Compression queue initialized | {"host":"127.0.0.1","port":6379}
+[2025-12-06 07:58:47] [INFO] [REDIS] Redis connected successfully | {"host":"127.0.0.1","port":6379}
+[2025-12-06 07:58:47] [INFO] [REDIS] Redis client ready
+[2025-12-06 07:58:47] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 07:58:48] [DEBUG] [API-HEALTH] Health check | {"isHealthy":true,"redisConnected":true,"ffmpegAvailable":true}
+[2025-12-06 08:52:39] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 08:52:39] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 08:52:39] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 08:52:39] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 08:52:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:52:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:52:39] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 08:55:07] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 08:55:07] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 08:55:07] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 08:55:07] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 08:55:07] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:55:07] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:55:07] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 08:56:21] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 08:56:21] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 08:56:21] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 08:56:21] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 08:56:21] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:56:21] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 08:56:21] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 09:51:12] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 09:51:12] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 09:51:12] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 09:51:12] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 09:51:12] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 09:51:13] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 09:51:13] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 09:58:43] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 09:58:43] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 09:58:43] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 09:58:43] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 09:58:43] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 09:58:43] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 09:58:43] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 10:09:40] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 10:09:40] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 10:09:40] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 10:09:40] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 10:09:40] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 10:09:40] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 10:09:40] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 12:28:22] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 12:28:22] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 12:28:22] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 12:28:22] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 12:28:22] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 12:28:22] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 12:28:22] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 14:21:23] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 14:21:23] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 14:21:23] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 14:21:23] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 14:21:23] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 14:21:23] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 14:21:23] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 14:45:51] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 14:45:51] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 14:45:51] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 14:45:51] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 14:45:51] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 14:45:51] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 14:45:51] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 15:01:04] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"157.49.44.134"}
+[2025-12-06 16:02:14] [WARNING] [API-STATUS] Invalid API key | {"clientIP":"157.49.44.134"}
+[2025-12-06 16:04:14] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 16:04:17] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 16:08:58] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 16:09:01] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 16:09:09] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 17:20:27] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 17:20:27] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 17:20:27] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 17:20:27] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 17:20:27] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 17:20:27] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 17:20:27] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 18:08:39] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 18:08:39] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 18:08:39] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 18:08:39] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 18:08:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 18:08:39] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 18:08:39] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 18:38:21] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 18:38:21] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 18:38:21] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 18:38:21] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 18:38:22] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 18:38:22] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 18:38:22] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 19:06:49] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 19:06:49] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 19:06:49] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 19:06:49] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 19:06:49] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:06:50] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:06:50] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 19:42:24] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 19:42:24] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 19:42:24] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 19:42:24] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 19:42:24] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:42:24] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:42:24] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-06 19:51:49] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-06 19:51:49] [INFO] [WORKER] Starting compression worker...
+[2025-12-06 19:51:49] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-06 19:51:49] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-06 19:51:49] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:51:49] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-06 19:51:49] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-13 18:45:18] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-13 18:45:18] [INFO] [WORKER] Starting compression worker...
+[2025-12-13 18:45:18] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-13 18:45:18] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-13 18:45:18] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-13 18:45:18] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-13 18:45:18] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 15:18:43] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 15:18:43] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 15:18:43] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 15:18:43] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 15:18:43] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 15:18:43] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 15:18:43] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 15:23:11] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 15:23:11] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 15:23:11] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 15:23:11] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 15:23:12] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 15:23:12] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 15:23:12] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 17:37:07] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 17:37:07] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 17:37:07] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 17:37:07] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 17:37:07] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 17:37:07] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 17:37:07] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 17:47:48] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 17:47:48] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 17:47:48] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 17:47:48] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 17:47:48] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 17:47:48] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 17:47:48] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 18:01:36] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 18:01:36] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 18:01:36] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 18:01:36] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 18:01:36] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 18:01:36] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 18:01:36] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}
+[2025-12-16 18:04:59] [INFO] [WORKER] Starting worker (attempt 1/10)...
+[2025-12-16 18:04:59] [INFO] [WORKER] Starting compression worker...
+[2025-12-16 18:04:59] [INFO] [WORKER] Configuration loaded | {"mediaUploadsDir":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","mediaContentDir":"/home/runner/workspace/nextjs-vps-api/public/media/content","redisHost":"127.0.0.1","redisPort":6379}
+[2025-12-16 18:04:59] [INFO] [UTILS] Media directories initialized | {"uploads":"/home/runner/workspace/nextjs-vps-api/public/media/uploads","content":"/home/runner/workspace/nextjs-vps-api/public/media/content","logs":"/home/runner/workspace/nextjs-vps-api/logs"}
+[2025-12-16 18:04:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 18:04:59] [INFO] [FFMPEG] FFmpeg initialized | {"ffmpegPath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffmpeg","ffprobePath":"/nix/store/15alrig3q4xjwfc3rbnsgj4bj29zn6ww-ffmpeg-7.1.1-bin/bin/ffprobe"}
+[2025-12-16 18:04:59] [INFO] [WORKER] Worker started | {"concurrency":1,"parallelCompression":false}

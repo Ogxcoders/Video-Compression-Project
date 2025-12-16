@@ -1,0 +1,46 @@
+{
+  "name": "nextjs-vps-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video Compression API - Next.js 14 conversion from PHP",
+  "scripts": {
+    "dev": "next dev -p 5000 -H 0.0.0.0",
+    "dev:all": "npm-run-all --parallel dev worker:dev",
+    "build": "next build && npm run build:worker",
+    "build:next": "next build",
+    "build:worker": "tsc --project tsconfig.worker.json",
+    "start": "next start -p 5000 -H 0.0.0.0",
+    "start:all": "npm-run-all --parallel start worker",
+    "lint": "next lint",
+    "worker": "node dist/workers/compression-worker.js",
+    "worker:dev": "npx tsx src/workers/compression-worker.ts"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bullmq": "^5.65.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "ioredis": "^5.8.2",
+    "next": "14.2.33",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.34.5",
+    "uuid": "^13.0.0",
+    "winston": "^3.18.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.28",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.33",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5"
+  }
+}
